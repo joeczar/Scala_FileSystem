@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aec63217-e2e1-4be9-8865-47ffa40d0041" name="Default Changelist" comment="" />
+    <list default="true" id="aec63217-e2e1-4be9-8865-47ffa40d0041" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Ls.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Mkdir.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Pwd.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/DirEntry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/DirEntry.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/Directory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Command.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/UnknownCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/UnknownCommand.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/filesystem/State.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/filesystem/State.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/DirEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/DirEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/UnknownCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/UnknownCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/filesystem/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/filesystem/State.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +33,14 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1Y7vOF4n3igM5ddZzXMvYfXIbSJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,6 +48,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
@@ -105,21 +128,29 @@
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="326" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.40.1200.760@0.40.1200.760" timestamp="1582306650672" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582313786308">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582370757089">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582313786308" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582313786307">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757089" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582317111078" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582370757088">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582313786307" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582313786306">
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582317111076" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582370757088">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582313786306" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582313786307">
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582317111075" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582370757088">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582313786307" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582317111078" />
+    <state x="299" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1582392576504">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="299" y="245" key="com.intellij.ide.util.TipDialog/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582392576504" />
   </component>
 </project>
