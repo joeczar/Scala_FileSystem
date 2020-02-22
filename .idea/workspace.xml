@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aec63217-e2e1-4be9-8865-47ffa40d0041" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Ls.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Mkdir.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Pwd.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/File.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/CreateEntry.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Touch.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/filesystem/FilesystemException.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/DirEntry.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/DirEntry.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/Directory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/Files/Directory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Command.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Command.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/UnknownCommand.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/UnknownCommand.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/filesystem/State.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/filesystem/State.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/DirEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/DirEntry.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/Files/Directory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/UnknownCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/commands/UnknownCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/filesystem/State.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.13/classes/com/rtjvm/scala/oop/filesystem/State.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Mkdir.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/rtjvm/scala/oop/commands/Mkdir.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,29 +116,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="332" y="176" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582394208401">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="332" y="176" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582394208401" />
+    <state x="407" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1582395209162">
+      <screen x="0" y="40" width="1200" height="760" />
+    </state>
+    <state x="407" y="119" key="#com.intellij.ide.util.MemberChooser/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582395209162" />
     <state x="326" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582306650672">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
     <state x="326" y="110" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.40.1200.760@0.40.1200.760" timestamp="1582306650672" />
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582370757089">
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom" timestamp="1582395404064">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757089" />
+    <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582395404064" />
     <state width="1157" height="190" key="GridCell.Tab.0.bottom/0.40.1200.760@0.40.1200.760" timestamp="1582317111078" />
-    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582370757088">
+    <state width="1157" height="190" key="GridCell.Tab.0.center" timestamp="1582395404064">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582395404064" />
     <state width="1157" height="190" key="GridCell.Tab.0.center/0.40.1200.760@0.40.1200.760" timestamp="1582317111076" />
-    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582370757088">
+    <state width="1157" height="190" key="GridCell.Tab.0.left" timestamp="1582395404064">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582395404064" />
     <state width="1157" height="190" key="GridCell.Tab.0.left/0.40.1200.760@0.40.1200.760" timestamp="1582317111075" />
-    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582370757088">
+    <state width="1157" height="190" key="GridCell.Tab.0.right" timestamp="1582395404064">
       <screen x="0" y="40" width="1200" height="760" />
     </state>
-    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582370757088" />
+    <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760/526.-860.1600.860@0.40.1200.760" timestamp="1582395404064" />
     <state width="1157" height="190" key="GridCell.Tab.0.right/0.40.1200.760@0.40.1200.760" timestamp="1582317111078" />
     <state x="299" y="245" key="com.intellij.ide.util.TipDialog" timestamp="1582392576504">
       <screen x="0" y="40" width="1200" height="760" />
