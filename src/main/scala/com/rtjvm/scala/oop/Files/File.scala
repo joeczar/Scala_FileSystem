@@ -9,7 +9,9 @@ class File(override val parentPath: String, override val name: String, contents:
 
   def asFile: File = this
 
-  override def getType: String = "File"
+  def isDirectory: Boolean = false
+  def isFile: Boolean = true
+  def getType: String = "File"
 }
 object File {
   def empty(parentPath: String, name: String): File =

@@ -11,6 +11,7 @@ object Command {
   val LS = "ls"
   val PWD = "pwd"
   val TOUCH = "touch"
+  val CD = "cd"
 
   def emptyCommand: Command = (state: State) => state.setMessage("")
   def incompleteCommand(name: String): Command = (state: State) => state.setMessage(name + ": incomplete command")
@@ -24,10 +25,13 @@ object Command {
       if (tokens.length < 2) incompleteCommand(MKDIR)
       else new Mkdir(tokens(1))
     } else if (tokens(0) == LS) new Ls
-    else if (tokens(0) == PWD) new Pwd
-    else if(tokens(0)== TOUCH) {
-      if (tokens.length < 2) incompleteCommand(TOUCH)
-      else new Touch(tokens(1))
+      else if (tokens(0) == PWD) new Pwd
+      else if(tokens(0)== TOUCH) {
+        if (tokens.length < 2) incompleteCommand(TOUCH)
+        else new Touch(tokens(1))
+    } else if (tokens(0) == CD) {
+      if (tokens.length < 2) incompleteCommand(CD)
+      else new Cd(tokens(1))
     }
     else new UnknownCommand
 
